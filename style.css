@@ -328,8 +328,7 @@ header {
     color: var(--clr-light);
     text-align: center;
     overflow: hidden;
-    align-items:center;
-    justify-content: center;
+    
 
     
 }
