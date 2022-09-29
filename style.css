@@ -368,11 +368,11 @@ header {
   overflow-x: auto;
 }
 .service h3{
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-weight: var(--fw-semibold);
     color: var(--clr-light);
     letter-spacing: 1px;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
    
 }
