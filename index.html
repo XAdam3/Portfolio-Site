@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevAdam Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,900|Source+Sans+Pro:300,600,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/152d540dba.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <button class="nav-toggle" area-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong class="home-strong">Adam Assalimy</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev<br>Graphic Designer</p>
+        <img src="img/Dev-Adam.jpg" alt="a picture of Adam Assalimy smiling" class="intro__img">
+
+    </section>
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">My Builds</h2>
+        <div class="services">
+                
+                <div class="service">
+                    <h3>Get Color Scheme Website</h3>
+                    <a href="https://benevolent-choux-04d066.netlify.app" target="_blank" class="portfolio__item">
+                        <img src="./img/color-site-01.png" alt="" class="portfolio__img"">
+                    </a>
+                    <p></p>
+                </div>
+            
+                <div class="service">
+                    <h3>Movie Watch List Website</h3>
+                    <a href="https://rad-pegasus-848a06.netlify.app/" target="_blank" class="portfolio__item">
+                        <img src="./img/watchlist-site-02.png" alt="" class="portfolio__img">
+                    </a>
+                    <p></p>
+                </div>
+            
+                <div class="service">
+                    <h3>Unit Converter Website </h3>
+                    <a href="https://majestic-bavarois-282bf0.netlify.app/" target="_blank" class="portfolio__item">
+                        <img src="./img/converter-site-03.png" alt="" class="portfolio__img">
+                    </a>
+                    <p></p>
+                </div>
+        
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Graphic Designer & Developer based out of LV</p>
+
+        <div class="about-me__body">
+            <span>My name is Adam Assalimy. I'm American b. 1989 Manhatten, Kansas. I began my major in Graphic Design at
+                the School of the Art Institute of Chicago and completed my Bachelor of <span class="about-me-span0">Arts in Graphic Design at
+                Oakland University. I chose to go into Graphic Design because I’m</span> <span class="about-me-span5">attracted to the concept of fusing art
+                and technology to communicate a message using</span> <span class="about-me-span4">computers.Computers can be helpful and frustrating at
+                times, for that reason, I view my </span><span class="about-me-span0"> Apple MacBook as another tool to use for my artwork, such as a pencil
+                or a ruler. I’ve made</span> many visual illustrations and created many hand-made artworks. I believe the
+                answer lies <span class="about-me-span3"> within understanding the question. I enjoy challenging myself, I go through what I call a
+                planning process; creating rough-draft models, thus, having a physical image of what the</span> piece would
+                look like, then evaluating the sample from all angles. When I’ve completed the planning process then I
+                can move on to the final step. By doing so, I have allowed myself to <span class="about-me-span1">gain further insight, due to
+                analyzing the sample from different point of views, by progress</span> <span class="about-me-span0">through discovery. After the planning
+                process, I start using the computer and other essential</span> <span class="about-me-span2">tools to execute my desired product. In art, I
+                view myself as a Modernist, a Cubist, and a Surrealist thinker with the philosophy of not being
+                concerned for the future but rather present moment. Therefore, I put all my time and energy into the
+                task in hand at the present moment because I know I’ll get what I put into it.</span></p>
+            <p></p>
+        </div>
+        <img src="./img/Dev-Adam-02.png" alt="a picture of Adam Assalimy " class="about-me__img">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="./portfolio-pages/portfolio-item-1.html" class="portfolio__item">
+                <img src="./img/portfolio-item-01a.jpg" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="./portfolio-pages/portfolio-item-2.html" class="portfolio__item">
+                <img src="./img/portfolio-item-02a.jpg" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="./portfolio-pages/portfolio-item-3.html" class="portfolio__item">
+                <img src="./img/portfolio-item-03a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="./portfolio-pages/portfolio-item-4.html" class="portfolio__item">
+                <img src="./img/portfolio-item-04a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="./portfolio-pages/portfolio-item-5.html" class="portfolio__item">
+                <img src="./img/portfolio-item-05a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="./portfolio-pages/portfolio-item-6.html" class="portfolio__item">
+                <img src="./img/portfolio-item-06a.jpg" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="./portfolio-pages/portfolio-item-7.html" class="portfolio__item">
+                <img src="./img/portfolio-item-07a.jpg" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 08 -->
+            <a href="./portfolio-pages/portfolio-item-8.html" class="portfolio__item">
+                <img src="./img/portfolio-item-08a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 09 -->
+            <a href="./portfolio-pages/portfolio-item-9.html" class="portfolio__item">
+                <img src="./img/portfolio-item-09a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 10-->
+            <a href="./portfolio-pages/portfolio-item-10.html" class="portfolio__item">
+                <img src="./img/portfolio-item-10a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+
+            <a href="./portfolio-pages/portfolio-item-11.html" class="portfolio__item">
+                <img src="./img/portfolio-item-11a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-12.html" class="portfolio__item">
+                <img src="./img/portfolio-item-12a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-13.html" class="portfolio__item">
+                <img src="./img/portfolio-item-13a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-14.html" class="portfolio__item">
+                <img src="./img/portfolio-item-14a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-15.html" class="portfolio__item">
+                <img src="./img/portfolio-item-15a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-16.html" class="portfolio__item">
+                <img src="./img/portfolio-item-16a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-17.html" class="portfolio__item">
+                <img src="./img/portfolio-item-17a.png" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-18.html" class="portfolio__item">
+                <img src="./img/portfolio-item-18a.jpg" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-19.html" class="portfolio__item">
+                <img src="./img/portfolio-item-19a.jpg" alt="Art Work" class="portfolio__img">
+            </a>
+            <a href="./portfolio-pages/portfolio-item-20.html" class="portfolio__item">
+                <img src="./img/portfolio-item-20a.png" alt="Art Work" class="portfolio__img">
+            </a>
+
+            <!-- 
+
+                <a href="portfolio-item-21.html" class="portfolio__item">
+                    <img src="img/portfolio-21.png" alt="" class="portfolio__img">
+                </a>
+                <a href="portfolio-item-22.html" class="portfolio__item">
+                    <img src="img/portfolio-22.png" alt="" class="portfolio__img">
+                </a>
+                <a href="portfolio-item-23.html" class="portfolio__item">
+                    <img src="img/portfolio-23.png" alt="" class="portfolio__img">
+                </a> -->
+
+        </div>
+        <footer class="footer">
+
+            <a href="mailto:graphicdesigneradam3@gmail.com" class="footer__link">GraphicDesignerAdam3@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://632528d6508f1f5e32207029--rad-pegasus-848a06.netlify.app/">
+                        <i class="fa-solid fa-earth-americas"></i>
+
+
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"  target="_blank" href="https://www.behance.net/AdamAssalimy/projects">
+                        <i class="fa-brands fa-square-behance"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"  target="_blank" href="https://www.linkedin.com/in/adamassalimy/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"  target="_blank" href="https://github.com/XAdam3">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js"></script>
+</body>
+
+</html>
