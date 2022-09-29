@@ -383,13 +383,6 @@ header {
     
 }
 
-.service img{
-    border-radius: 10px;
-    margin-bottom: 7em;
-    object-fit: cover;
-    object-position:center;
-  
-}
 
 .service {
     max-width: 1000px;
@@ -463,26 +456,38 @@ header {
 
 
 }
+.service .portfolio__item,
 .portfolio__item {
     background: var(--clr-accent);
     overflow:hidden;  
    
 }
-
+.service .portfolio__img,
 .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
         width: 100%;
 }
+.service .portfolio__item:focus,
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
 }
+.service .portfolio__img:hover,
+.service .portfolio__item:focus , 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img  {
     transform: scale(1.2);
     opacity: .75;
+}
+
+.service img{
+    border-radius: 10px;
+    margin-bottom: 7em;
+    object-fit: cover;
+    object-position:center;
+  
 }
 /* footer */
 
