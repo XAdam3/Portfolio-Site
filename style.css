@@ -507,6 +507,7 @@ header {
  .footer__link {
     overflow: hidden;
     font-weight: var(--fw-bold);
+    font-size: var(--fs-h4);
 }
 
 .footer__link:hover,
