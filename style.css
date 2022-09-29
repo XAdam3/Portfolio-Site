@@ -505,7 +505,7 @@ header {
     text-decoration: none;}
    
  .footer__link {
-    
+    overflow: hidden;
     font-weight: var(--fw-bold);
 }
 
