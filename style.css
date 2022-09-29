@@ -365,7 +365,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-column-gap:3em;
-    overflow: hidden;
+  overflow-x: auto;
 }
 .service h3{
     margin-bottom: 1.5em;
@@ -374,20 +374,21 @@ header {
     letter-spacing: 1px;
     text-align: center;
     font-size: 2rem;
-    overflow: hidden;
+   
 }
 .service span{
     font-weight: var(--fw-reg);
     color: var(--clr-accent);
     font-size: var(--fs-h3);
-    overflow: hidden;
+    
 }
 
 .service img{
     border-radius: 10px;
     margin-bottom: 7em;
     object-fit: cover;
-    overflow: hidden;
+    object-position:center;
+  
 }
 
 .service {
