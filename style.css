@@ -289,10 +289,15 @@ header {
     
 
 }
+.portfolio__item{
+    border-radius: 10px;
+
+}
 .portfolio-item-individual{
     display: grid;
     grid-template-rows: max-content;
     grid-gap:5em;
+  
 }
 .section__subtitle--intro {
     display: inline-block;
