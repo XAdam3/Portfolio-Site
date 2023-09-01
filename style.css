@@ -307,6 +307,7 @@ header {
   background-image: url(../img/services-bg.jpg);
   background-size: cover;
   background-blend-mode: multiply;
+  background-color: #606060;
   color: var(--clr-light);
   text-align: center;
   overflow: hidden;
