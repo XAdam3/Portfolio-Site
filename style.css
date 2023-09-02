@@ -382,15 +382,6 @@ header {
   letter-spacing: 0.22px;
   font-size: var(--fs-body);
 }
-.span-me-span8 {
-  letter-spacing: 0.3px;
-}
-.about-me-span7 {
-  letter-spacing: 0.1px;
-}
-.about-me-span6 {
-  letter-spacing: 0.8px;
-}
 .about-me__body0 {
   letter-spacing: 0px;
 }
@@ -408,6 +399,15 @@ header {
 }
 .about-me-span5 {
   letter-spacing: 0.6px;
+}
+.about-me-span6 {
+  letter-spacing: 0.8px;
+}
+.about-me-span7 {
+  letter-spacing: 0.1px;
+}
+.span-me-span8 {
+  letter-spacing: 0.3px;
 }
 
 .about-me__img {
